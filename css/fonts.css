@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Giant';
+    src: url('../fonts/Giant1-Regular.ttf') format('truetype');
+}
+
+.giant {
+    font-family: 'Giant', serif;
+    font-size: 1.5em;
+}
+
+@font-face {
+    font-family: 'Elven';
+    src: url('../fonts/tngan.ttf') format('truetype');
+}
+
+.elven {
+    font-family: 'Elven';
+    font-size: 1.5em;
+}

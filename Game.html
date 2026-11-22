@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/fonts.css">
+    <script type="module" src="js/main.js"></script>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li class="giant">HEBI</li>
+            <input id="hebi-input" onchange="replaceSpans('hebi', this.value, 'HEBI')">
+            <li class="giant">SKEBI</li>
+            <input id="skebi-input" onchange="replaceSpans('skebi', this.value, 'SKEBI')">
+            <li class="giant">DEBI</li>
+            <input id="tribbee-input" onchange="replaceSpans('tribbee', this.value, 'DEBI')">
+        </ul>
+        <p>When you put text in the input box, it should change what displays for the paragraph below. If there is no
+            input, the original word should be displayed.</p>
+    </div>
+    <div>
+        <h2>Example Story Text</h2>
+        <p id="targetText">Lord Penanifren mounted his <span class="hebi giant">HEBI</span> with excessive <span class="skebi giant">SKEBI</span>.
+            However, he was shot by a <span class="tribbee giant">DEBI</span> and perished the next day. <span class="hebi upper plural giant">HEBIS</span> have
+            not been ridden since.</p>
+    </div>
+
+    <div>
+        <h3>Giant Words</h3>
+        <p id="giantWords">Replace this</p>
+    </div>
+
+    <div>
+        <p>Now let's try some elven.</p>
+        <p>a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+        <p class="elven">a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+        <p>1 2 3 4 5 6 7 8 9 0 - = ! @ # $ % ^ & * ( ) _ +</p>
+        <p class="elven">1 2 3 4 5 6 7 8 9 0 - = ! @ # $ % ^ & * ( ) _ +</p>
+    </div>
+</body>
+
+</html>
